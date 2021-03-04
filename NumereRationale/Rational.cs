@@ -132,7 +132,7 @@ namespace NumereRationale
 
         public static bool operator !=(Rational a, Rational b)
         {
-            return a.compare(b) == Comparison.Equal;
+            return a.compare(b) != Comparison.Equal;
         }
 
         //Operatii (+,-,*,/)
